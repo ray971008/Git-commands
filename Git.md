@@ -35,3 +35,21 @@ git diff {輸入日誌編號} -- {輸入檔案名稱}
 
 # 將日誌編號的節點設為最新狀態並刪除後面修改的節點 注意：不可逆！！
 git reset -- hard {輸入日誌編號}
+
+# 將檔案上傳至 github
+git push
+
+# 同步 github 到本地端
+git pull
+
+# 連結 github (此時會有從 github 下載的資料夾)
+git clone {輸入github連結網址}
+
+# 連結資料夾 （這樣才能用 git 指令操作儲存庫）
+cd {輸入資料夾名稱}
+
+# 建立新分支
+git checkout -b branch2
+
+# 刪掉 .git 目錄
+rm -rf .git

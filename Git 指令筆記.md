@@ -58,7 +58,7 @@ rm -rf .git
 # 建立資料夾
 cd {輸入路徑}
 mkdir {輸入資料夾檔名}
-touch {輸入資料夾檔名}/.gitkeep /*讓資料夾可追蹤*/
+touch {輸入資料夾檔名}/.gitkeep       /*讓資料夾可追蹤*/
 git add {輸入資料夾檔名}
 git commit -m "新增 {輸入資料夾檔名} 資料夾"
 git push

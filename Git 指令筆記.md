@@ -18,9 +18,6 @@ git status
 git add {檔案名稱}/{*.md}/{.}
 
 # 檔案從未追蹤改成已追蹤（顯示 A 代表已接受拍照）
-git add {輸入檔案名稱}/
-
-# 檔案從未追蹤改成已追蹤（顯示 A 代表已接受拍照）
 git commit -m {"輸入修改訊息"}
 
 # 檔案從未追蹤改成已追蹤（顯示 A 代表已接受拍照）
@@ -53,3 +50,11 @@ git checkout -b branch2
 
 # 刪掉 .git 目錄
 rm -rf .git
+
+# 建立資料夾
+cd {輸入路徑}
+mkdir {輸入資料夾檔名}
+touch {輸入資料夾檔名}/.gitkeep /*讓資料夾可追蹤*/
+git add {輸入資料夾檔名}
+git commit -m "新增 {輸入資料夾檔名} 資料夾"
+git push

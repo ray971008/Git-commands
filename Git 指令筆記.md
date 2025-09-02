@@ -5,13 +5,13 @@ git --version
 git config --global user.name {"輸入姓名"}  
 git config --global user.email {"輸入信箱"} 
 
- # 將資料夾轉成具有版本功能的 git 儲存庫:建立.git資料夾儲存變更歷史
- git init
+# 將資料夾轉成具有版本功能的 git 儲存庫:建立.git資料夾儲存變更歷史
+git init
 
- # 清空終端機
- clear
+# 清空終端機
+clear
 
- # 終端機狀態
+# 終端機狀態
 git status
 
 # 檔案從未追蹤改成已追蹤 {*.md}代表副檔名為md的所有資料 {.}代表所有修改

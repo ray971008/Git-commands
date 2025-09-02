@@ -48,6 +48,10 @@ cd {輸入資料夾名稱}
 # 建立新分支
 git checkout -b branch2
 
+# 刪掉所有資料（要在 commit 記錄） 
+git rm -r *
+
+
 # 刪掉 .git 目錄
 rm -rf .git
 
